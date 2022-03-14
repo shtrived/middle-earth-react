@@ -37,9 +37,15 @@ const NavBar = () => {
 
   return (
     <div className="nav-container">
-      <Navbar color="light" light expand="md">
+      <Navbar color="white" light expand="md">
         <Container>
-          <NavbarBrand className="logo" />
+          <NavbarBrand>
+            <img
+              src="https://i.ibb.co/0CjGMDt/Screen-Shot-2022-03-13-at-7-11-27-PM.png"
+              alt="new"
+              height={50}
+            />
+          </NavbarBrand>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto" navbar>
